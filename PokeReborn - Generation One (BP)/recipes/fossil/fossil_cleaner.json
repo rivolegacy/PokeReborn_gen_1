@@ -1,0 +1,32 @@
+{
+    "format_version":"1.16",
+    "minecraft:recipe_shaped":{
+        "description":{
+            "identifier":"reborn:fossil_cleaner"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "pattern":[
+            "###",
+            "SSS",
+            "SWS"
+        ],
+        "key":{
+            "S":{
+                "item":"reborn:steel_plate"
+            },
+            "#":{
+                "item":"minecraft:glass_pane"
+            },
+            "W":{
+                "item":"minecraft:redstone"
+            }
+          
+        },
+        "result":{
+            "item":"reborn:fossil_cleaner_spawn_egg",
+            "count":1
+        }
+    }
+}

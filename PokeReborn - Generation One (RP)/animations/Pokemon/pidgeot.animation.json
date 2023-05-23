@@ -1,0 +1,86 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pidgeot.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Wing": {
+					"rotation": {
+						"0.0": [0, 0, 20],
+						"0.52": [0, 0, -20],
+						"1.0": [0, 0, 20]
+					}
+				},
+				"Wing2": {
+					"rotation": {
+						"0.0": [0, 0, -20],
+						"0.52": [0, 0, 20],
+						"1.0": [0, 0, -20]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.52": [0, 0, 5],
+						"1.0": [0, 0, -5]
+					}
+				}
+			}
+		},
+		"animation.pidgeot.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Leg": {
+					"position": [0, 3, 0]
+				},
+				"Leg2": {
+					"position": [0, 3, 0]
+				},
+				"Wing": {
+					"rotation": {
+						"0.0": [0, 0, 25],
+						"0.24": [0, 0, -30],
+						"0.52": [0, 0, 25],
+						"0.76": [0, 0, -30],
+						"1.0": [0, 0, 25]
+					}
+				},
+				"Wing2": {
+					"rotation": {
+						"0.0": [0, 0, -25],
+						"0.24": [0, 0, 30],
+						"0.52": [0, 0, -25],
+						"0.76": [0, 0, 30],
+						"1.0": [0, 0, -25]
+					}
+				},
+				"Head": {
+					"rotation": [20, 0, 0]
+				}
+			}
+		},
+		"animation.pidgeot.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Pidgeot": {
+					"position": [0, -3, 0]
+				},
+				"Leg": {
+					"position": [0, 3, 0]
+				},
+				"Leg2": {
+					"position": [0, 3, 0]
+				},
+				"Wing": {
+					"rotation": [0, 0, 27.5]
+				},
+				"Wing2": {
+					"rotation": [0, 0, -27.5]
+				}
+			}
+		}
+	}
+}

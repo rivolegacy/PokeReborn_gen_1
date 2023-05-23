@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:dome_fossil",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "dome_fossil"
+    }
+  }
+}

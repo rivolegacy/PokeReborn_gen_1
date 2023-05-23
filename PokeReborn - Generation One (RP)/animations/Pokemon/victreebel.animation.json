@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.victreebel.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"leaf": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leaf3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [10, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.victreebel.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"leaf": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leaf3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [10, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Victoreebell": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.victreebel.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"Victoreebell": {
+					"rotation": [-10, 0, 0]
+				},
+				"leaf": {
+					"rotation": [0, 0, 20]
+				},
+				"leaf3": {
+					"rotation": [0, 0, -20]
+				}
+			}
+		}
+	}
+}

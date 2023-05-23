@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.apricorn_block",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "apricorn",
+					"pivot": [0, -1, -3]
+				},
+				{
+					"name": "stork",
+					"parent": "apricorn",
+					"pivot": [0, -1, 0],
+					"cubes": [
+						{"origin": [-1, 16.21, -5.975], "size": [2, 3.75, 2], "pivot": [0, 16, -4], "rotation": [90, 0, 0], "uv": [0, 0]},
+						{"origin": [-1, 14, -4], "size": [2, 3, 2], "pivot": [0, 14, -2], "rotation": [47.5, 0, 0], "uv": [0, 16]},
+						{"origin": [-1, 11, -4], "size": [2, 3, 2], "uv": [0, 32]},
+						{"origin": [-3.5, 11.5, -6.5], "size": [7, 1, 7], "uv": [23, 0]}
+					]
+				},
+				{
+					"name": "berry",
+					"parent": "apricorn",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 4, -7], "size": [8, 8, 8], "uv": [0, 16]},
+						{"origin": [-4.5, 4.5, -6.5], "size": [9, 7, 7], "uv": [25, 9]},
+						{"origin": [-3.5, 4.5, -7.5], "size": [7, 7, 9], "uv": [0, 0]},
+						{"origin": [-3.5, 3.5, -6.5], "size": [7, 1, 7], "uv": [25, 25]}
+					]
+				}
+			]
+		}
+	]
+}

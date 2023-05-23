@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:dirty_fossil_rock",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "dirty_fossil_rock"
+    }
+  }
+}

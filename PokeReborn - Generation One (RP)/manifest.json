@@ -1,0 +1,30 @@
+{
+   "format_version":2,
+   "header":{
+      "description":"§6By Mr_Legacy",
+      "name":"§bPokéReborn - Generation One",
+      "uuid":"26a6cba6-16ae-4b66-ba38-1f0ec7a557d7",
+      "version":[
+         1,
+         0,
+         0
+      ],
+      "min_engine_version":[
+         1,
+         16,
+         0
+      ]
+   },
+   "modules":[
+      {
+         "description":"§6By Mr_Legacy",
+         "type":"resources",
+         "uuid":"224126dc-408f-4408-a479-90c82766394e",
+         "version":[
+            1,
+            0,
+            0
+         ]
+      }
+   ]
+}

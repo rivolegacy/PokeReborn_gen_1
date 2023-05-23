@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:fossil_machine_tank"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "# #",
+         "# #",
+         "# #"
+      ],
+      "key":{
+         "#":{
+            "item":"minecraft:glass_pane"
+         }
+      },
+      "result":{
+         "item":"reborn:fossil_machine_tank",
+         "count":1
+      }
+   }
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fossil_cleaner.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Cog": {
+					"rotation": {
+						"0.0": [0, -90, 0],
+						"0.24": [0, -180, 0],
+						"0.52": [0, -270, 0],
+						"0.76": [0, -360, 0],
+						"1.0": [0, -450, 0]
+					}
+				}
+			}
+		}
+	}
+}

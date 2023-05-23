@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:onix_shiny_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "onix_shiny_fainted"
+    }
+  }
+}

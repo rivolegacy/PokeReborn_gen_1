@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:heat_rock",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "heat_rock"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:fossil_machine_base"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:steel_plate"
+         }
+      },
+      "result":{
+         "item":"reborn:fossil_machine_base",
+         "count":1
+      }
+   }
+}

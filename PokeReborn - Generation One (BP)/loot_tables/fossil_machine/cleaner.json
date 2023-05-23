@@ -1,0 +1,24 @@
+{
+    "pools":[
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"reborn:old_amber",
+                    "weight":100
+                },
+                {
+                    "type":"item",
+                    "name":"reborn:dome_fossil",
+                    "weight":100
+                },
+                {
+                    "type":"item",
+                    "name":"reborn:helix_fossil",
+                    "weight":100
+                }
+            ]
+        }
+    ]
+}

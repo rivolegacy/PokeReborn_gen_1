@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:golbat_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "golbat_fainted"
+    }
+  }
+}

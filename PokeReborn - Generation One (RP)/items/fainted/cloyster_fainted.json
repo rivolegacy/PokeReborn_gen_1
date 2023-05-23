@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:cloyster_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "cloyster_fainted"
+    }
+  }
+}

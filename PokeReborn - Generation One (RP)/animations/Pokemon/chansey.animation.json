@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.chansey.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, -2.5],
+						"0.5": [0, 0, 2.5],
+						"1.0": [0, 0, -2.5]
+					}
+				}
+			}
+		},
+		"animation.chansey.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"chansey": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [15, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [-15, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-15, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [15, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.chansey.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"chansey": {
+					"position": [0, -1, 0]
+				},
+				"leg": {
+					"rotation": [-90, 0, 0],
+					"position": [-2, 1, -6]
+				},
+				"leg2": {
+					"rotation": [-90, 0, 0],
+					"position": [2, 1, -6]
+				}
+			}
+		}
+	}
+}

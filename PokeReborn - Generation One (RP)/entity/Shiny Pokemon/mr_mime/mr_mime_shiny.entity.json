@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:mr_mime_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/mr_mime_shiny"
+         },
+         "geometry":{
+            "default":"geometry.mr_mime"
+         },
+         "animations":{
+            "chill":"animation.mr_mime.chill",
+            "walk":"animation.mr_mime.walk",
+            "sit":"animation.mr_mime.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bellsprout.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Bellsprout": {
+					"position": [0, 0, 0]
+				},
+				"Arm": {
+					"rotation": {
+						"0.0": [0, 0, 5],
+						"0.5": [0, 0, -5],
+						"1.0": [0, 0, 5]
+					}
+				},
+				"Arm2": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.5": [0, 0, 5],
+						"1.0": [0, 0, -5]
+					}
+				}
+			}
+		},
+		"animation.bellsprout.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Bellsprout": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0.3, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 0.3, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -10, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 10, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Arm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 10],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 0, -10],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Arm2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 10],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 0, -10],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.bellsprout.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"Bellsprout": {
+					"position": [0, -4, 0]
+				},
+				"Leg": {
+					"rotation": [-92.5, 0, 0]
+				},
+				"Arm": {
+					"rotation": [0, 0, -17.5]
+				},
+				"Arm2": {
+					"rotation": [0, 0, 12.5]
+				}
+			}
+		}
+	}
+}

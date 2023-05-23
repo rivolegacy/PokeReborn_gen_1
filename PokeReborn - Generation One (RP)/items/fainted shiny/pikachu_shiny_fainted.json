@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:pikachu_shiny_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "pikachu_shiny_fainted"
+    }
+  }
+}

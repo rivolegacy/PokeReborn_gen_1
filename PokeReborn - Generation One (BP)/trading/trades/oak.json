@@ -1,0 +1,23 @@
+{
+    "tiers":[
+        {
+            "trades":[
+                {
+                    "wants":[
+                        {
+                            "item":"reborn:oaks_letter",
+                            "quantity":1
+                        }
+                    ],
+                    "gives":[
+                        {
+                            "item":"reborn:mew_fossil",
+                            "quantity":1
+                        }
+                    ]
+                }
+           
+            ]
+        }
+    ]
+}

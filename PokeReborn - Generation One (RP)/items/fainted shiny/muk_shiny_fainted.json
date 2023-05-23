@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:muk_shiny_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "muk_shiny_fainted"
+    }
+  }
+}

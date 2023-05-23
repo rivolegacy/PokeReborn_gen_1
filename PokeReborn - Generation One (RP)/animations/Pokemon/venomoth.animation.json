@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.venomoth.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Venomoth": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Wing2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 25, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Wing3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -25, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.venomoth.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Venomoth": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 2, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, -2, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Wing2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 50, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, -30, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Wing3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -50, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 30, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.venomoth.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"Venomoth": {
+					"position": [0, -5, 0]
+				},
+				"Wing2": {
+					"rotation": [0, 75, 0]
+				},
+				"Wing3": {
+					"rotation": [0, -75, 0]
+				}
+			}
+		}
+	}
+}

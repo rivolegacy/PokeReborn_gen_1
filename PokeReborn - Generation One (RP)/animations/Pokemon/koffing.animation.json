@@ -1,0 +1,103 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.koffing.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"smoke": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke3": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke4": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.koffing.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"smoke": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, -1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke3": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"smoke4": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"koffing": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.koffing.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"koffing": {
+					"position": [0, -9, 0]
+				},
+				"smoke": {
+					"scale": [1, 0, 1]
+				},
+				"smoke2": {
+					"scale": [1, 0, 1]
+				},
+				"smoke3": {
+					"scale": [1, 0, 1]
+				},
+				"smoke4": {
+					"scale": [1, 0, 1]
+				}
+			}
+		}
+	}
+}

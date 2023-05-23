@@ -1,0 +1,36 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.mewtwo":{
+         "arrays":{
+            "textures":{
+               "Array.variants":[
+                  "Texture.default",
+                  "Texture.shadow",
+                  "Texture.mecha",
+                  "Texture.x",
+                  "Texture.y"
+               ]
+            },
+            "geometries":{
+               "Array.geometries":[
+                  "Geometry.default",
+                  "Geometry.shadow",
+                  "Geometry.mecha",
+                  "Geometry.x",
+                  "Geometry.y"
+               ]
+            }
+         },
+         "geometry":"Array.geometries[query.variant]",
+         "materials":[
+            {
+               "*":"Material.default"
+            }
+         ],
+         "textures":[
+            "Array.variants[query.variant]"
+         ]
+      }
+   }
+}

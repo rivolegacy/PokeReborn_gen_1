@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.exeggcute",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Exeggcute",
+					"pivot": [0, 1, 0]
+				},
+				{
+					"name": "Egg",
+					"parent": "Exeggcute",
+					"pivot": [0, 1, -0.5],
+					"rotation": [-7.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.16, -0.44, -2.66], "size": [4.32, 1.44, 4.32], "uv": [24, 18]},
+						{"origin": [-2.16, 5.32, -2.66], "size": [4.32, 1.44, 4.32], "uv": [15, 0]},
+						{"origin": [-2.88, 0.28, -3.38], "size": [5.76, 5.76, 5.76], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Egg2",
+					"parent": "Exeggcute",
+					"pivot": [-4, 1, -4.5],
+					"rotation": [0, 12.5, 0],
+					"cubes": [
+						{"origin": [-5.5, 0, -7], "size": [3, 1, 3], "uv": [21, 31]},
+						{"origin": [-5.5, 4, -7], "size": [3, 1, 3], "uv": [12, 30]},
+						{"origin": [-6, 0.5, -7.5], "size": [4, 4, 4], "uv": [12, 22]}
+					]
+				},
+				{
+					"name": "Egg5",
+					"parent": "Exeggcute",
+					"pivot": [3, 1, 5.5],
+					"rotation": [-12.19924, 0.28699, 2.6851],
+					"cubes": [
+						{"origin": [1.305, -0.13, 2.675], "size": [3.39, 1.13, 3.39], "uv": [27, 0]},
+						{"origin": [1.305, 4.39, 2.675], "size": [3.39, 1.13, 3.39], "uv": [0, 26]},
+						{"origin": [0.74, 0.435, 2.11], "size": [4.52, 4.52, 4.52], "uv": [12, 14]}
+					]
+				},
+				{
+					"name": "Egg6",
+					"parent": "Exeggcute",
+					"pivot": [-5, 1, 5.5],
+					"rotation": [0, -12.5, 0],
+					"cubes": [
+						{"origin": [-6.5, 0, 3], "size": [3, 1, 3], "uv": [24, 14]},
+						{"origin": [-7, 0.5, 2.5], "size": [4, 4, 4], "uv": [0, 10]}
+					]
+				},
+				{
+					"name": "Egg3",
+					"parent": "Exeggcute",
+					"pivot": [5, 1, -3.5],
+					"rotation": [0, -30, 0],
+					"cubes": [
+						{"origin": [3.5, 0, -6], "size": [3, 1, 3], "uv": [0, 30]},
+						{"origin": [3.5, 4, -6], "size": [3, 1, 3], "uv": [28, 23]},
+						{"origin": [3, 0.5, -6.5], "size": [4, 4, 4], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "Egg4",
+					"parent": "Exeggcute",
+					"pivot": [5, 1, 1.5],
+					"rotation": [0, -62.5, 0],
+					"cubes": [
+						{"origin": [3.5, 0, -1], "size": [3, 1, 3], "uv": [28, 4]},
+						{"origin": [3.5, 4, -1], "size": [3, 1, 3], "uv": [25, 27]},
+						{"origin": [3, 0.5, -1.5], "size": [4, 4, 4], "uv": [16, 6]}
+					]
+				}
+			]
+		}
+	]
+}

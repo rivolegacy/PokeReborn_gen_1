@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.nidorino",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Nidorino",
+					"pivot": [0.5, 5, 0.25]
+				},
+				{
+					"name": "Body",
+					"parent": "Nidorino",
+					"pivot": [0, 4, 0.25],
+					"rotation": [50, 0, 0],
+					"cubes": [
+						{"origin": [0, 2.92598, -5], "size": [0, 5, 7.5], "pivot": [0, 1.22598, 1.3265], "rotation": [-57.5, 0, 0], "uv": [0, 3]},
+						{"origin": [-2.5, -1.07402, -5.2], "size": [5, 4, 6.7], "pivot": [0, 1.22598, 1.3265], "rotation": [-57.5, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Leg",
+					"parent": "Nidorino",
+					"pivot": [2.5, 3, 2.25],
+					"cubes": [
+						{"origin": [1, 0, 1.25], "size": [2, 2, 2], "uv": [22, 21]},
+						{"origin": [0.8, 1.5, 1.1], "size": [2.3, 1.5, 2.3], "uv": [22, 25]},
+						{"origin": [1.1, 0.01, 0.5], "size": [1.8, 1, 1], "uv": [20, 4]}
+					]
+				},
+				{
+					"name": "Leg3",
+					"parent": "Nidorino",
+					"pivot": [2.5, 3, -2.75],
+					"cubes": [
+						{"origin": [1, 0, -3.75], "size": [2, 2, 2], "uv": [0, 22]},
+						{"origin": [0.8, 1.5, -3.9], "size": [2.3, 1.5, 2.3], "uv": [16, 23]},
+						{"origin": [1.1, 0.01, -4.5], "size": [1.8, 1, 1], "uv": [2, 2]}
+					]
+				},
+				{
+					"name": "Leg5",
+					"parent": "Nidorino",
+					"pivot": [-2.5, 3, -2.75],
+					"cubes": [
+						{"origin": [-3, 0, -3.75], "size": [2, 2, 2], "uv": [16, 19]},
+						{"origin": [-3.1, 1.5, -3.9], "size": [2.3, 1.5, 2.3], "uv": [22, 12]},
+						{"origin": [-2.9, 0.01, -4.5], "size": [1.8, 1, 1], "uv": [2, 0]}
+					]
+				},
+				{
+					"name": "Leg4",
+					"parent": "Nidorino",
+					"pivot": [-2.5, 3, 2.25],
+					"cubes": [
+						{"origin": [-3, 0, 1.25], "size": [2, 2, 2], "uv": [22, 4]},
+						{"origin": [-3.1, 1.5, 1.1], "size": [2.3, 1.5, 2.3], "uv": [24, 17]},
+						{"origin": [-2.9, 0.01, 0.5], "size": [1.8, 1, 1], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Nidorino",
+					"pivot": [0, 4, -2.75],
+					"cubes": [
+						{"origin": [-2.25, 2.5, -6.75], "size": [4.5, 4, 4], "uv": [10, 11]},
+						{"origin": [0, 7, -6.31473], "size": [0, 3, 1], "pivot": [0, 6, -5], "rotation": [62.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-3.61519, 5.5, -5.07635], "size": [4.2, 7, 0.02], "pivot": [-1, 6, -5], "rotation": [-7.69263, 6.40865, -50.43131], "uv": [8, 19]},
+						{"origin": [-0.58481, 5.5, -5.07635], "size": [4.2, 7, 0.02], "pivot": [1, 6, -5], "rotation": [-8.21888, -5.71617, 55.41103], "uv": [0, 15]},
+						{"origin": [-1.6, 3, -7.75], "size": [3.2, 2, 2], "uv": [16, 0]}
+					]
+				}
+			]
+		}
+	]
+}

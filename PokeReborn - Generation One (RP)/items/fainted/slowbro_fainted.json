@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:slowbro_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "slowbro_fainted"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:fossil_machine_display"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " S",
+         "S#S",
+         " S"
+      ],
+      "key":{
+         "S":{
+              "item": "minecraft:redstone"
+
+         },
+         "#":{
+            "item":"minecraft:obsidian"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:fossil_machine_display",
+         "count":1
+      }
+   }
+}

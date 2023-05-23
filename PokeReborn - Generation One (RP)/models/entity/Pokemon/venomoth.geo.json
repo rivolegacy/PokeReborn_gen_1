@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.venomoth",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "Venomoth",
+					"pivot": [0, 20, 1],
+					"rotation": [12.5, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Venomoth",
+					"pivot": [0, 20, 1],
+					"cubes": [
+						{"origin": [-4.05, 17, -2], "size": [8.1, 7, 6], "uv": [56, 52]},
+						{"origin": [-4, 4, -2], "size": [8, 13, 6], "pivot": [0, 17, -2], "rotation": [7.5, 0, 0], "uv": [56, 16]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Venomoth",
+					"pivot": [0, 24, 2],
+					"cubes": [
+						{"origin": [-5, 24, -2.5], "size": [10, 10, 6.4], "uv": [56, 0]},
+						{"origin": [-7, 34, -2.5], "size": [14, 17, 0], "pivot": [0, 34, -2.5], "rotation": [-10, 0, 0], "uv": [56, 35]},
+						{"origin": [-5, 30, -2.55], "size": [4, 4, 0], "uv": [67, 66]},
+						{"origin": [1, 30, -2.55], "size": [4, 4, 0], "uv": [57, 66]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Venomoth",
+					"pivot": [-2, 24, 4],
+					"rotation": [0, 0, -7.5],
+					"cubes": [
+						{"origin": [-30, -2, 4.01], "size": [28, 52, 0], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "Wing3",
+					"parent": "Venomoth",
+					"pivot": [2, 24, 4],
+					"rotation": [0, 0, 7.5],
+					"cubes": [
+						{"origin": [2, -2, 4.01], "size": [28, 52, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

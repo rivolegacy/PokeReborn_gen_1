@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.machoke",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Machoke",
+					"pivot": [0, 10, 2]
+				},
+				{
+					"name": "Leg",
+					"parent": "Machoke",
+					"pivot": [-3, 10, 2],
+					"rotation": [0, 15, 0],
+					"cubes": [
+						{"origin": [-3.53407, 5.5, 1.25882], "size": [3, 5, 3], "pivot": [-2.03407, 12, 2.25882], "rotation": [-10, -15, 10], "uv": [26, 23]},
+						{"origin": [-3.93407, 0.9, 0.40083], "size": [2.8, 4.8, 2.8], "pivot": [-2.03407, 6, 0.25882], "rotation": [2.5, -15, 7.5], "uv": [32, 33]},
+						{"origin": [-4.64914, 0.22833, -1.71552], "size": [2.8, 1, 4.8], "pivot": [-4.03407, 1, 0.25882], "rotation": [2.5, -15, 0], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Machoke",
+					"pivot": [3, 10, 2],
+					"rotation": [0, -15, 0],
+					"cubes": [
+						{"origin": [0.53407, 5.5, 1.25882], "size": [3, 5, 3], "pivot": [2.03407, 12, 2.25882], "rotation": [-10, 15, -10], "uv": [13, 26]},
+						{"origin": [1.13407, 0.9, 0.40083], "size": [2.8, 4.8, 2.8], "pivot": [2.03407, 6, 0.25882], "rotation": [2.5, 15, -7.5], "uv": [6, 32]},
+						{"origin": [1.84914, 0.22833, -1.71552], "size": [2.8, 1, 4.8], "pivot": [4.03407, 1, 0.25882], "rotation": [2.5, 15, 0], "uv": [24, 4]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Machoke",
+					"pivot": [0, 17, 0],
+					"cubes": [
+						{"origin": [-3.5, 11, 0.7], "size": [7, 2.5, 3.2], "uv": [0, 9]},
+						{"origin": [-2.5, 9.5, 0.7], "size": [5, 1.5, 3.2], "uv": [0, 23]},
+						{"origin": [-1.5, 8.5, 0.7], "size": [3, 1.5, 3.2], "uv": [29, 13]},
+						{"origin": [-4.5, 13.5, 0.5], "size": [9, 6.5, 3.5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Machoke",
+					"pivot": [-4, 20, 2],
+					"cubes": [
+						{"origin": [-9.58846, 17, 0.8], "size": [5, 3, 3], "pivot": [-4.5, 20, 2], "rotation": [0, 0, -50], "uv": [13, 20]},
+						{"origin": [-13.4, 13.4, 0.9], "size": [6, 2.8, 2.8], "pivot": [-7.5, 16, 2], "rotation": [0, 0, -77.5], "uv": [24, 0]},
+						{"origin": [-15.9, 13.3, 0.8], "size": [2.5, 3, 3], "pivot": [-7.5, 16, 2], "rotation": [0, 0, -77.5], "uv": [22, 31]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Machoke",
+					"pivot": [4, 20, 2],
+					"cubes": [
+						{"origin": [4.58846, 17, 0.8], "size": [5, 3, 3], "pivot": [4.5, 20, 2], "rotation": [0, 0, 50], "uv": [16, 14]},
+						{"origin": [7.4, 13.4, 0.9], "size": [6, 2.8, 2.8], "pivot": [7.5, 16, 2], "rotation": [0, 0, 77.5], "uv": [20, 9]},
+						{"origin": [13.4, 13.3, 0.8], "size": [2.5, 3, 3], "pivot": [7.5, 16, 2], "rotation": [0, 0, 77.5], "uv": [29, 17]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Machoke",
+					"pivot": [0, 20, 2],
+					"cubes": [
+						{"origin": [-2, 20, 0.5], "size": [4, 4, 4], "uv": [0, 14]},
+						{"origin": [-1, 24, 0.5], "size": [0, 2, 4], "uv": [29, 27]},
+						{"origin": [1, 24, 0.5], "size": [0, 2, 4], "uv": [0, 28]},
+						{"origin": [0, 24, 0.5], "size": [0, 2, 4], "uv": [8, 23]},
+						{"origin": [-2, 20, -0.5], "size": [4, 2, 1], "uv": [32, 4]}
+					]
+				}
+			]
+		}
+	]
+}

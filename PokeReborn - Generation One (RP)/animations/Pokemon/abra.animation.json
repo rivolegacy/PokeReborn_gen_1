@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.abra.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Abra": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.abra.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Abra": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 1, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"Tail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 15],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 0, -15],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.abra.sitting": {
+			"loop": true,
+			"animation_length": 0.3,
+			"bones": {
+				"Abra": {
+					"position": [0, -2, 0]
+				}
+			}
+		}
+	}
+}

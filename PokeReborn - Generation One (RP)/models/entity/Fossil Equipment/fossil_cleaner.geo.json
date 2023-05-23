@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fossil_cleaner",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Fossil_Cleaner",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Fossil_Cleaner",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -7], "size": [9, 3, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Cog",
+					"parent": "Fossil_Cleaner",
+					"pivot": [0.5, 4, 0],
+					"cubes": [
+						{"origin": [0, 3, -3.5], "size": [1, 1, 7], "uv": [0, 30]},
+						{"origin": [-1, 3, -3], "size": [1, 1, 6], "uv": [0, 7]},
+						{"origin": [1, 3, -3], "size": [1, 1, 6], "uv": [0, 0]},
+						{"origin": [-2, 3, -2.5], "size": [1, 1, 5], "uv": [27, 34]},
+						{"origin": [2, 3, -2.5], "size": [1, 1, 5], "uv": [15, 34]},
+						{"origin": [-3.75, 3, -0.5], "size": [8.5, 1, 1], "uv": [32, 10]},
+						{"origin": [-4.01, 4, -0.5], "size": [1, 1, 1], "uv": [0, 2]},
+						{"origin": [4.01, 4, -0.5], "size": [1, 1, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Case",
+					"parent": "Cog",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 4.01, -5], "size": [7, 0, 10], "uv": [14, 17]},
+						{"origin": [-3, 9, -5], "size": [7, 0, 10], "uv": [0, 17]},
+						{"origin": [-3, 4, -5], "size": [5, 0, 10], "pivot": [-3, 4, 0], "rotation": [0, 0, -90], "uv": [0, 27]},
+						{"origin": [-3, -3, -5], "size": [5, 0, 10], "pivot": [-3, 4, 0], "rotation": [0, 0, -90], "uv": [22, 0]},
+						{"origin": [2, 6, -12], "size": [5, 0, 7], "pivot": [4, 6, -5], "rotation": [-90, 0, -90], "uv": [23, 27]},
+						{"origin": [2, 16, -12], "size": [5, 0, 7], "pivot": [4, 6, -5], "rotation": [-90, 0, -90], "uv": [13, 27]}
+					]
+				},
+				{
+					"name": "Fossil",
+					"parent": "Cog",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 5, -3], "size": [5, 0, 6], "uv": [32, 17]}
+					]
+				}
+			]
+		}
+	]
+}

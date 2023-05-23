@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.zubat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Zubat",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Zubat",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 18, 0], "size": [8, 10, 4], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "Left_Leg",
+					"parent": "Zubat",
+					"pivot": [-2, 18, 2],
+					"rotation": [0, 0, 7.5],
+					"cubes": [
+						{"origin": [-4, 10, 1], "size": [2, 8, 2], "uv": [56, 10]},
+						{"origin": [-3.5, 0, 1.5], "size": [1, 12, 1], "uv": [56, 33]}
+					]
+				},
+				{
+					"name": "Right_Leg",
+					"parent": "Zubat",
+					"pivot": [2, 18, 2],
+					"rotation": [0, 0, -7.5],
+					"cubes": [
+						{"origin": [2, 10, 1], "size": [2, 8, 2], "uv": [56, 0]},
+						{"origin": [2.5, 0, 1.5], "size": [1, 12, 1], "uv": [56, 20]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Zubat",
+					"pivot": [0, 28, 2],
+					"cubes": [
+						{"origin": [-3.75, 28, 0], "size": [7.5, 8, 4], "uv": [24, 48]},
+						{"origin": [-1.05, 32, 2], "size": [8.8, 6, 0.1], "pivot": [2, 38, 0], "rotation": [0, 0, -42.5], "uv": [46, 54]},
+						{"origin": [-7.75, 32, 2], "size": [8.8, 6, 0.1], "pivot": [-2, 38, 0], "rotation": [0, 0, 42.5], "uv": [46, 48]}
+					]
+				},
+				{
+					"name": "Left_Wing",
+					"parent": "Zubat",
+					"pivot": [-3, 27, 3],
+					"cubes": [
+						{"origin": [-28, 22, 3], "size": [26, 22, 0.1], "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "Right_Wing",
+					"parent": "Zubat",
+					"pivot": [3, 27, 4],
+					"cubes": [
+						{"origin": [2, 22, 3], "size": [26, 22, 0.1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

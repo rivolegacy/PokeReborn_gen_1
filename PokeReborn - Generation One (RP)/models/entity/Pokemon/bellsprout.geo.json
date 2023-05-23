@@ -1,0 +1,64 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bellsprout",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Bellsprout",
+					"pivot": [0.23759, 6, 1.35]
+				},
+				{
+					"name": "Body",
+					"parent": "Bellsprout",
+					"pivot": [0.23759, 6, 1.35],
+					"cubes": [
+						{"origin": [-1.5, 4, 1.35], "size": [3, 4, 0], "uv": [10, 8]}
+					]
+				},
+				{
+					"name": "Leg",
+					"parent": "Bellsprout",
+					"pivot": [0.23759, 4, 1.35],
+					"cubes": [
+						{"origin": [-2.75, 0, 1.35], "size": [5.5, 4, 0], "uv": [0, 9]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Bellsprout",
+					"pivot": [-0.76241, 6, 1.35],
+					"rotation": [0, 0, 55],
+					"cubes": [
+						{"origin": [-8.87358, 4.65301, 1.35], "size": [5, 4, 0], "pivot": [-2.01683, 9.65301, 0.35], "rotation": [0, 0, -55], "uv": [10, 0]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Bellsprout",
+					"pivot": [0.76241, 6, 1.35],
+					"rotation": [0, 0, -55],
+					"cubes": [
+						{"origin": [3.67358, 4.65301, 1.35], "size": [5, 4, 0], "pivot": [2.01683, 9.65301, 0.35], "rotation": [0, 0, 55], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Bellsprout",
+					"pivot": [0, 8, 1.5],
+					"cubes": [
+						{"origin": [-1.25, 8, -3.5], "size": [2.5, 2, 2], "uv": [10, 4]},
+						{"origin": [-1.35, 8, -1.5], "size": [2.7, 2.5, 3], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

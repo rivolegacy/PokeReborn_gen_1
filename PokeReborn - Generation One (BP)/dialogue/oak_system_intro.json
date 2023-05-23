@@ -1,0 +1,287 @@
+{
+   "format_version":"1.17",
+   "minecraft:npc_dialogue":{
+      "scenes":[
+         {
+            "scene_tag":"oak_system_intro",
+            "npc_name":"§9Professor Oak",
+            "text":"Hello there! Welcome to the world of Pokémon. I am §9Professor Oak§0, but people call me the Pokémon Professor. I can see you do not have a Pokémon companion or a Team! Lets fix that! First choose a Team that you would like to be part of?",
+            "buttons":[
+               {
+                  "name":"§9Mystic!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p mystic_information"
+                  ]
+               },
+               {
+                  "name":"§eInstinct!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p instinct_information"
+                  ]
+               },
+               {
+                  "name":"§cValor!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p valor_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"mystic_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen the the blue team §9MYSTIC§0! Who are powered by their mascot §9Articuno§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§aBulbasaur!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p bulbasaur_mystic_information"
+                  ]
+               },
+               {
+                  "name":"§cCharmander!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p charmander_mystic_information"
+                  ]
+               },
+               {
+                  "name":"§9Squirtle!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p squirtle_mystic_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"instinct_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen the the yellow team §eINSTINCT§0! Who are powered by their mascot §eZapdos§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§aBulbasaur!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p bulbasaur_instinct_information"
+                  ]
+               },
+               {
+                  "name":"§cCharmander!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p charmander_instinct_information"
+                  ]
+               },
+               {
+                  "name":"§9Squirtle!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p squirtle_instinct_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"valor_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen the the red team §cVALOR§0! Who are powered by their mascot §cMoltres§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§aBulbasaur!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p bulbasaur_valor_information"
+                  ]
+               },
+               {
+                  "name":"§cCharmander!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p charmander_valor_information"
+                  ]
+               },
+               {
+                  "name":"§9Squirtle!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p squirtle_valor_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"bulbasaur_mystic_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §aBulbasaur§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_bulbasaur_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"charmander_mystic_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §cCharmander§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_charmander_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"squirtle_mystic_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §9Squirtle§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_squirtle_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"bulbasaur_instinct_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §aBulbasaur§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_bulbasaur_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"charmander_instinct_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §cCharmander§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_charmander_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"squirtle_instinct_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §9Squirtle§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_squirtle_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"bulbasaur_valor_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §aBulbasaur§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_bulbasaur_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"charmander_valor_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §cCharmander§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_charmander_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"squirtle_valor_information",
+            "npc_name":"§9Professor Oak",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §9Squirtle§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:oak_system,r=1] reborn:chosen_squirtle_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:oak_system,r=1] @p oak_system_intro"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

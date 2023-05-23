@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "reborn:aerodactyl_ball",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "reborn:aerodactyl_shiny_ball",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "reborn:pokeball",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.zapdos",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Zapdos",
+					"pivot": [0, 3, -4]
+				},
+				{
+					"name": "Leg",
+					"parent": "Zapdos",
+					"pivot": [-2, 12, 1],
+					"rotation": [0, 0, 30],
+					"cubes": [
+						{"origin": [-1.86603, 4.76795, -3], "size": [1, 1, 7], "uv": [0, 8]},
+						{"origin": [-1.86603, 5.76795, 1], "size": [1, 4, 1], "uv": [0, 8]},
+						{"origin": [-2.36603, 9.76795, 0.5], "size": [2, 3, 2], "uv": [9, 8]},
+						{"origin": [-1.86603, 4.76795, -3], "size": [1, 1, 4], "pivot": [-1.36603, 4.76795, 1], "rotation": [0, 22.5, 0], "uv": [0, 35]},
+						{"origin": [-1.86603, 4.76795, -3], "size": [1, 1, 4], "pivot": [-1.36603, 4.76795, 1], "rotation": [0, -22.5, 0], "uv": [6, 34]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Zapdos",
+					"pivot": [2, 12, 2],
+					"rotation": [0, 0, -30],
+					"cubes": [
+						{"origin": [0.86603, 4.76795, -3], "size": [1, 1, 7], "uv": [0, 0]},
+						{"origin": [0.86603, 5.76795, 1], "size": [1, 4, 1], "uv": [0, 0]},
+						{"origin": [0.36603, 9.76795, 0.5], "size": [2, 3, 2], "uv": [9, 0]},
+						{"origin": [0.86603, 4.76795, -3], "size": [1, 1, 4], "pivot": [1.36603, 4.76795, 1], "rotation": [0, -22.5, 0], "uv": [0, 30]},
+						{"origin": [0.86603, 4.76795, -3], "size": [1, 1, 4], "pivot": [1.36603, 4.76795, 1], "rotation": [0, 22.5, 0], "uv": [8, 29]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Zapdos",
+					"pivot": [0, 12, -2],
+					"cubes": [
+						{"origin": [-2.01, 11.8, -7], "size": [4.02, 4.2, 12], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 46]},
+						{"origin": [-9.01, 15, 4], "size": [18, 0, 22], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 36]},
+						{"origin": [-1, 11.8, -2], "size": [2, 2.2, 3], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [7, 24]}
+					]
+				},
+				{
+					"name": "Wing",
+					"parent": "Zapdos",
+					"pivot": [2, 16, -2],
+					"cubes": [
+						{"origin": [2, 16, -9], "size": [24.01, 0, 18], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Zapdos",
+					"pivot": [-2, 16, -2],
+					"cubes": [
+						{"origin": [-26.02, 16, -9], "size": [24.01, 0, 18], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Zapdos",
+					"pivot": [0, 15, -6],
+					"cubes": [
+						{"origin": [-2, 13, -8.7], "size": [4, 5, 3], "uv": [0, 16]},
+						{"origin": [-5, 10, -7.9], "size": [10, 12, 0], "pivot": [0, 15, -7], "rotation": [-10, 0, 0], "uv": [32, 58]},
+						{"origin": [-0.75, 14, -12.7], "size": [1.5, 1.5, 5], "uv": [0, 24]}
+					]
+				}
+			]
+		}
+	]
+}

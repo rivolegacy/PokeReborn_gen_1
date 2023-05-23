@@ -1,0 +1,101 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.raticate",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Raticate",
+					"pivot": [0, 0, -1]
+				},
+				{
+					"name": "Body",
+					"parent": "Raticate",
+					"pivot": [0, 5, 1],
+					"cubes": [
+						{"origin": [-5, 1.1, -6.3], "size": [10, 8, 10], "pivot": [0, 5, 0], "rotation": [-87.5, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Back_Leg1",
+					"parent": "Raticate",
+					"pivot": [3, 1.5, 0.5],
+					"cubes": [
+						{"origin": [0.6, 0, -4], "size": [4, 1, 6], "uv": [32, 35]},
+						{"origin": [3.6, 0, -5], "size": [1, 1, 1], "uv": [36, 24]},
+						{"origin": [0.6, 0, -5], "size": [1, 1, 1], "uv": [36, 8]},
+						{"origin": [2.1, 0, -5], "size": [1, 1, 1], "uv": [36, 6]},
+						{"origin": [1.6, 1, -1], "size": [2, 1, 3], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "Back_Leg2",
+					"parent": "Raticate",
+					"pivot": [-3, 1.5, 0.5],
+					"cubes": [
+						{"origin": [-4.6, 0, -4], "size": [4, 1, 6], "uv": [18, 34]},
+						{"origin": [-4.6, 0, -5], "size": [1, 1, 1], "uv": [32, 34]},
+						{"origin": [-1.6, 0, -5], "size": [1, 1, 1], "uv": [20, 34]},
+						{"origin": [-3.1, 0, -5], "size": [1, 1, 1], "uv": [0, 34]},
+						{"origin": [-3.6, 1, -1], "size": [2, 1, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Back_Leg3",
+					"parent": "Raticate",
+					"pivot": [-3, 8.5, -4],
+					"cubes": [
+						{"origin": [-3.6, 8, -4.5], "size": [1, 1, 2], "uv": [0, 21]},
+						{"origin": [-4.6, 8, -5.5], "size": [3, 1.5, 1], "uv": [26, 18]},
+						{"origin": [-3.6, 9.5, -5.5], "size": [1, 1, 1], "pivot": [-3, 9.5, -5], "rotation": [10, 0, 0], "uv": [30, 8]},
+						{"origin": [-4.7, 9.3, -5.5], "size": [1, 1, 1], "pivot": [-4, 9.5, -5], "rotation": [12.5, 0, -22.5], "uv": [33, 7]},
+						{"origin": [-2.4, 9.2, -5.5], "size": [1, 1, 1], "pivot": [-2, 9.5, -5], "rotation": [5, 0, 35], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "Back_Leg4",
+					"parent": "Raticate",
+					"pivot": [3, 8.5, -4],
+					"cubes": [
+						{"origin": [2.6, 8, -4.5], "size": [1, 1, 2], "uv": [0, 18]},
+						{"origin": [1.6, 8, -5.5], "size": [3, 1.5, 1], "uv": [0, 8]},
+						{"origin": [2.6, 9.5, -5.5], "size": [1, 1, 1], "pivot": [3, 9.5, -5], "rotation": [10, 0, 0], "uv": [30, 6]},
+						{"origin": [3.7, 9.3, -5.5], "size": [1, 1, 1], "pivot": [4, 9.5, -5], "rotation": [12.5, 0, 22.5], "uv": [26, 22]},
+						{"origin": [1.4, 9.2, -5.5], "size": [1, 1, 1], "pivot": [2, 9.5, -5], "rotation": [5, 0, -35], "uv": [26, 20]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Raticate",
+					"pivot": [0, 3, 4],
+					"rotation": [20, 0, 0],
+					"cubes": [
+						{"origin": [-1, 1.68404, 3.12061], "size": [2, 2, 5], "pivot": [0, 3.68404, 2.12061], "rotation": [15, 0, 0], "uv": [36, 24]},
+						{"origin": [-1, 3.20404, 8.02061], "size": [2, 2, 11], "pivot": [0, 3.68404, 8.12061], "rotation": [50, 0, 0], "uv": [21, 21]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Raticate",
+					"pivot": [0, 11, -1],
+					"cubes": [
+						{"origin": [-5, 10.3, -2.7], "size": [10, 8, 6], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [0, 18]},
+						{"origin": [-9, 15.3, -0.2], "size": [6, 0.02, 6], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [30, 18]},
+						{"origin": [-2, 17.43276, -2.5], "size": [4, 0, 3], "pivot": [0, 17, -2], "rotation": [62.5, 0, 0], "uv": [41, 0]},
+						{"origin": [3, 15.3, -0.2], "size": [6, 0.02, 6], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [24, 0]},
+						{"origin": [-4, 18.1, -2.7], "size": [8, 1, 4], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [0, 32]},
+						{"origin": [-11, 19.1, -2.7], "size": [7, 0, 4], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [-4, 42]},
+						{"origin": [4, 19.1, -2.7], "size": [7, 0, 4], "pivot": [0, 14, 0], "rotation": [92.5, 0, 0], "uv": [-4, 46]}
+					]
+				}
+			]
+		}
+	]
+}

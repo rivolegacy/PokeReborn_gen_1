@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.spearow",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Spearow",
+					"pivot": [0, 7, 1]
+				},
+				{
+					"name": "Leg",
+					"parent": "Spearow",
+					"pivot": [-3, 3, 1],
+					"cubes": [
+						{"origin": [-3, 0, 1], "size": [1, 1, 3], "uv": [0, 8]},
+						{"origin": [-3, 1, 1], "size": [1, 4, 1], "uv": [4, 12]},
+						{"origin": [-3, 0, -3], "size": [1, 1, 4], "pivot": [-2.5, 0, 1], "rotation": [0, 22.5, 0], "uv": [32, 5]},
+						{"origin": [-3, 0, -3], "size": [1, 1, 4], "pivot": [-2.5, 0, 1], "rotation": [0, -22.5, 0], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Spearow",
+					"pivot": [3, 3, 2],
+					"cubes": [
+						{"origin": [2, 0, 1], "size": [1, 1, 3], "uv": [0, 4]},
+						{"origin": [2, 1, 1], "size": [1, 4, 1], "uv": [0, 12]},
+						{"origin": [2, 0, -3], "size": [1, 1, 4], "pivot": [2.5, 0, 1], "rotation": [0, -22.5, 0], "uv": [16, 31]},
+						{"origin": [2, 0, -3], "size": [1, 1, 4], "pivot": [2.5, 0, 1], "rotation": [0, 22.5, 0], "uv": [10, 30]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Spearow",
+					"pivot": [0, 6, 2],
+					"cubes": [
+						{"origin": [-4.01, 3.8, -3], "size": [8.02, 6.2, 8], "pivot": [0, 5, -3], "rotation": [-10, 0, 0], "uv": [0, 16]},
+						{"origin": [-5.01, 8, 5], "size": [10, 0, 8], "pivot": [0, 5, -3], "rotation": [-10, 0, 0], "uv": [16, 16]},
+						{"origin": [-1, 5.8, -2], "size": [2, 2.2, 3], "pivot": [0, 5, -3], "rotation": [-10, 0, 0], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "Wing",
+					"parent": "Spearow",
+					"pivot": [4, 9, 2],
+					"cubes": [
+						{"origin": [4, 10, -3], "size": [12.01, 0, 8], "pivot": [0, 5, -3], "rotation": [-10, 0, 0], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Spearow",
+					"pivot": [-4, 9, 2],
+					"cubes": [
+						{"origin": [-16.02, 10, -3], "size": [12.01, 0, 8], "pivot": [0, 5, -3], "rotation": [-10, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Spearow",
+					"pivot": [0, 9, -1],
+					"cubes": [
+						{"origin": [-2.5, 8.5, -3], "size": [5, 5.5, 5], "pivot": [0, 8, -2], "rotation": [7.5, 0, 0], "uv": [27, 25]},
+						{"origin": [-2.5, 13.95, -3.7], "size": [5, 2.5, 0], "pivot": [0, 14, -4], "rotation": [-30, 0, 0], "uv": [32, 14]},
+						{"origin": [-2.5, 6, -3], "size": [5, 2.5, 0], "uv": [26, 35]},
+						{"origin": [-7.37, 9.39514, -3.15], "size": [5, 4.5, 0], "pivot": [-3, 11, -3], "rotation": [8.26511, 24.77164, 3.48303], "uv": [0, 35]},
+						{"origin": [2.37, 9.39514, -3.15], "size": [5, 4.5, 0], "pivot": [3, 11, -3], "rotation": [8.26511, -24.77164, -3.48303], "uv": [32, 10]},
+						{"origin": [-1, 9.5, -4.6], "size": [2, 2, 2], "pivot": [0, 8, -2], "rotation": [7.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-1, 9, -4.6], "size": [2, 1, 1], "pivot": [0, 8, -2], "rotation": [7.5, 0, 0], "uv": [0, 17]}
+					]
+				}
+			]
+		}
+	]
+}

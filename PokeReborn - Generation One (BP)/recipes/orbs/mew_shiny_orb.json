@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:mew_shiny_orb"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "# #",
+         "# #",
+         "# #"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:mew_orb_piece"
+         }
+      },
+      "result":{
+         "item":"reborn:mew_shiny_orb_spawn_egg",
+         "count":1
+      }
+   }
+}

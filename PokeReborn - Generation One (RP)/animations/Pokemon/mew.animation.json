@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mew.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Mew": {
+					"position": {
+						"0.0": [0, -1, 0],
+						"0.52": [0, 0, 0],
+						"1.0": [0, -1, 0]
+					}
+				},
+				"Tail": {
+					"rotation": {
+						"0.0": [0, 0, 15],
+						"0.52": [0, 0, -15],
+						"1.0": [0, 0, 15]
+					}
+				}
+			}
+		},
+		"animation.mew.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Mew": {
+					"rotation": [40, 0, 0],
+					"position": {
+						"0.0": [0, -1, 12],
+						"0.24": [0, 0, 12],
+						"0.52": [0, -1, 12],
+						"0.76": [0, 0, 12],
+						"1.0": [0, -1, 12]
+					}
+				},
+				"Tail": {
+					"rotation": {
+						"0.0": [-22.5, 0, -12.5],
+						"0.52": [10, 0, 15],
+						"1.0": [-22.5, 0, -12.5]
+					}
+				},
+				"Head": {
+					"rotation": [-22.5, 0, 0]
+				}
+			}
+		},
+		"animation.mew.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Mew": {
+					"position": [0, -31, 0]
+				},
+				"Leg": {
+					"rotation": [-92.5, 0, 0],
+					"position": [0, 3, 0]
+				},
+				"Leg2": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 3, 0]
+				}
+			}
+		}
+	}
+}

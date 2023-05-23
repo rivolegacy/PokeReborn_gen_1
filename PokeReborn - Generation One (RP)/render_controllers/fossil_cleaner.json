@@ -1,0 +1,32 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.fossil_cleaner":{
+         "arrays":{
+            "textures":{
+               "Array.variants":[
+                  "Texture.default",
+                  "Texture.cleaning",
+                  "Texture.done"
+               ]
+            },
+            "geometries":{
+               "Array.geometries":[
+                  "Geometry.default",
+                  "Geometry.cleaning",
+                  "Geometry.done"
+               ]
+            }
+         },
+         "geometry":"Array.geometries[query.variant]",
+         "materials":[
+            {
+               "*":"Material.default"
+            }
+         ],
+         "textures":[
+            "Array.variants[query.variant]"
+         ]
+      }
+   }
+}
